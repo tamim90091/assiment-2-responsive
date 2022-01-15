@@ -1,0 +1,289 @@
+body{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Island Moments', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Neonderthaw', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+
+}
+.top-text{
+    margin-left: 60px;
+}
+.home-page{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.home-left{
+    width: 582px;
+    height: 270px;
+    
+}
+.home-left h1{
+    font-size: 35px;
+    margin-top: 50px;
+    
+}
+.home-left p{
+    font-size: 16px;
+    
+}
+.home-right{
+    width: 440px;
+    height: 414px;
+    padding-left: 150px;
+}
+.home-right:hover{
+    transform: scale(1.2) rotate(40deg);
+   transition: transform 2s ease-in-out;
+}
+.influencer-title{
+    font-size: 38px;
+}
+.influencer-authore{
+    font-size: 15px;
+    
+}
+.home-btn{
+    color: white;
+    font-weight: 800;
+    width: 196px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #E02C6D;
+}
+.fa-arrow-right{
+    padding: 5px;
+}
+
+/* Popular Collection start  */
+.service-container{
+    flex-direction: column;
+    align-items: center;
+}
+.service-container h1{
+    text-align: center;
+
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 125px;
+    margin-right: 210px;
+    
+}
+.service{
+    height: 476px;
+    width: 329px;
+    border-radius: 5px;
+    justify-content: start;
+    padding: 10px;
+    border: 3px solid ghostwhite;
+    box-shadow: 20px 20px 20px 20px ghostwhite;
+
+}
+.service-img{
+
+height: 256px;
+border-radius: 5px;
+}
+.service-img img{
+    width: 100%;
+}
+.collection-info{
+    padding-top: 5px;
+}
+.fa-star{
+    color: yellow;
+}
+.rating-info{
+    justify-content: center;
+
+}
+
+.see-info{
+    text-align: end;
+    margin-right: 110px;
+    color: #E02C6D; ;
+    font-weight: bolder;
+    
+}
+
+
+footer{
+  
+    width: 1440px;
+    height: 170px;
+    background-color: 
+    #0A0826;
+    color:#fff;
+    
+}
+.footer-info{
+    text-align: center;
+    padding-top: 5px;
+   
+}
+.icon{
+    display: flex;
+  justify-content: center;
+  
+
+}
+.fa-instagram, .fa-twitter, .fa-facebook, .fa-youtube{
+    margin-left: 20px;
+}
+
+
+/* media query   mobile device*/
+
+@media only screen and (max-width: 688px) {
+    .top-text{
+        margin-left: 468px;
+    font-size: 34px;
+    margin-right: -500px;
+
+    }
+    .home-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-left{
+        margin-left: 400px;
+        
+    }
+    .home-left h1{
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+    .home-left p{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .home-right{
+        padding-top: 30px;
+    }
+    .home-right img{
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    .service-container h1{
+        margin-left: 400px;
+    font-size: 35px;
+    margin-right: -500px;
+    padding-top: 40px;
+    font-weight: 900;
+
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 15px;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0;
+        grid-gap: 10px;
+        position: relative;
+    }
+    .service{
+        width: 100%;
+        padding: 15px;
+        margin-left: 400px;
+        padding: 50px;
+    margin-right: -500px;
+    font-weight: 900;
+    }
+    .collection-info  h3 p{
+        font-size: 50px;
+    } 
+    .see-info {
+      padding: 5px;
+      margin-right: -490px;
+      margin-left: 400px;
+      font-size: 40px;
+    }
+    
+
+
+  }
+
+  /* tablet device */
+  @media only screen and (min-width: 600px) and (max-width:992px) {
+    .top-text{
+        margin-left: 468px;
+    font-size: 34px;
+    margin-right: -500px;
+
+    }
+    .home-page{
+        display: flex;
+        flex-direction: column;
+    }
+    .home-left{
+        margin-left: 400px;
+        
+    }
+    .home-left h1{
+        font-size: 50px;
+        font-weight: 700;
+
+    }
+    .home-left p{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .home-right{
+        padding-top: 30px;
+    }
+    .home-right img{
+        margin-left: 200px;
+        margin-top: 60px;
+    }
+    .service-container h1{
+        margin-left: 400px;
+    font-size: 35px;
+    margin-right: -500px;
+    padding-top: 40px;
+    font-weight: 900;
+
+    }
+    .services{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0;
+        grid-gap: 50px;
+        position: relative;
+    }
+    .service{
+        width: 100%;
+        padding: 15px;
+        margin-left: 400px;
+        padding: 50px;
+    margin-right: -500px;
+    font-weight: 900;
+    }
+    .collection-info  h3 p{
+        font-size: 50px;
+    } 
+    .see-info {
+      padding: 5px;
+      margin-right: -490px;
+      margin-left: 400px;
+      font-size: 40px;
+    }
+    
+   
+  }
